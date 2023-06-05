@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #00444E;
+}
+
+.containerHeader {
+    /*border: 1px solid white;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.divMenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.centerLogo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #7CCE2A;
+}
+
+.selectedMenu {
+    color: #7CCE2A;
+    margin: 0px 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #7CCE2A;
+}
+
+.divisor {
+    width: 1436px;
+    border-radius: 100px;
+    border: 3px solid #7CCE2A;
+    margin: 8px 0px;
+}
+
+
+.centerMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centerMain div {
+    margin-bottom: 16px;
+
+}
+
+.banner {
+    min-width: 1400px;
+    height: 300px;
+    width: 50vw;
+    background: white;
+    border-radius: 10px;
+}
+
+.bannerImage1{
+    background-image: url(../Images/Index/Banner.png);
+    background-size: cover;
+    background-position:center -600px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.bannerNoMundoPg{
+    background-image: url(../Images/No\ Mundo/banner_no_mundo.jpg);
+    background-size: cover;
+    background-position:center top -80px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.frameBorder {
+    border: 5px solid #7CCE2A;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    color: white;
+}
+
+.frame {
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #7CCE2A;
+}
+
+.quad1 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: 8px;
+    background-image: url(../Images/Index/Earth.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.quad2 {
+    width: 30vw;
+
+    /*background-color: rgb(252, 22, 22);*/
+    float: left;
+    margin: 8px;
+    text-align: justify;
+}
+
+.quad3Index{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: 8px;
+    background-image: url(../Images/Index/Drone.png);
+    background-size: cover;
+    background-position: center right -40px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.quadNoMundoImg1{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: 8px;
+    background-image: url(../Images/No\ Mundo/japao.jpg);
+    background-size: cover;
+    background-position: left 10px center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.quadNoMundoImg2{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: 8px;
+    background-image: url(../Images/No\ Mundo/Holanda.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.centerButton {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+button {
+    display: flex;
+    background-color: #7CCE2A;
+    color: #00213A;
+    padding: 16px 32px;
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+
+}
+
+button:hover {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.horizontalRule {
+    width: 0px;
+    height: 200px;
+    border: 3px solid #fff;
+    border-radius: 100px;
+}
+
+@media(max-width:900px) {
+    .divMenu {
+        gap: 0px;
+    }
+
+    .horizontalRule {
+       width: 300px;
+       height: 0px;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    .contatos{
+        display: flex;
+    }
+    .banner{
+        width: 100px;
+    }
+    .quad1{
+        width: 100%
+    }
+    .quad2{
+        width: 100%
+    }
+}
+.footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background: #00213A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    color: white
+}
+
+.contatos {
+    display:block;
+    justify-content: center;
+    align-content: center;
+    padding: 40px;
+    gap: 25px;
+
+}
+
+.contatosN {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+.contatosN img{
+    border:3px solid white;
+    border-radius: 100px;
+}
+.contatosN img:hover{
+    border:3px solid #7CCE2A;
+    border-radius: 100px;
+}
