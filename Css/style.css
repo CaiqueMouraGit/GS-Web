@@ -119,6 +119,17 @@ a:hover {
     color: white;
 }
 
+.frameSobreNos {
+    background: #10A542;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    color: white;
+}
+
 h2 {
     text-align: center;
     color: #7CCE2A;
@@ -178,6 +189,22 @@ h2 {
     background-position: center center;
     background-repeat: no-repeat;
     border-radius: 10px;
+}
+
+.quadSobreNosImg1 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: 8px;
+    background-image: url(../Images/Index/42WaysTech_logo.png);
+    background-size: 70%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.frameSobreNos h2 {
+    color: #00444E;
 }
 
 .centerButton {
@@ -277,4 +304,34 @@ a {
 .contatosN img:hover{
     border:3px solid #7CCE2A;
     border-radius: 100px;
+}
+
+.team {
+    border: 5px solid #7CCE2A;
+    padding-top: 16px;
+    border-radius: 10px;
+}
+
+.containerTeamCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 8px;
+    text-align: center;
+}
+
+.teamCard {
+    background: #7CCE2A;
+    width: 200px;
+    height: 360px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.cardPhoto {
+    border-radius: 10px;
+    background: black;
+    height: 300px;
 }
