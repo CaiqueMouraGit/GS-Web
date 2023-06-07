@@ -399,3 +399,42 @@ a {
     background: black;
     height: 300px;
 }
+.backgroundCard1{
+    background-image: url(../Images/SobreNós/Photo05.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.backgroundCard2{
+    background-image: url(../Images/SobreNós/Photo03.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.backgroundCard3{
+    background-image: url(../Images/SobreNós/Photo01.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.backgroundCard4{
+    background-image: url(../Images/SobreNós/Photo02.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.backgroundCard5{
+    background-image: url(../Images/SobreNós/Photo04.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
