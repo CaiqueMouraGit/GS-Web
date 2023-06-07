@@ -98,6 +98,14 @@ a:hover {
     border-radius: 10px;
 }
 
+.bannerImage3{
+    background-image: url(../Images/Recursos/Banner3.jpg);
+    background-size: cover;
+    background-position:top -110px  center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
 .bannerNoMundoPg{
     background-image: url(../Images/NoMundo/banner_no_mundo.jpg);
     background-size: cover;
@@ -243,6 +251,18 @@ h2 {
     background-image: url(../Images/Index/42WaysTech_logo.png);
     background-size: 70%;
     background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.quadRecursosImg1 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin: 8px;
+    background-image: url(../Images/Recursos/RecQuad01.jpg);
+    background-size: 200%;
+    background-position: center left -180px;
     background-repeat: no-repeat;
     border-radius: 10px;
 }
