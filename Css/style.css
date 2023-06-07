@@ -131,6 +131,7 @@ a:hover {
     flex-wrap: wrap;
     gap: 32px;
     color: white;
+    margin: 0px 16px;
 }
 
 .frame {
@@ -141,6 +142,7 @@ a:hover {
     flex-wrap: wrap;
     gap: 32px;
     color: white;
+    margin: 0px 16px;
 }
 
 .frameSobreNos {
@@ -326,15 +328,18 @@ a {
         display: flex;
         justify-content: center;
         align-content: center;
-        flex-direction: column;
     }
+    
 
     .contatos {
         display: flex;
     }
 
     .banner {
-        width: 100px;
+        min-width: 100%;
+        height: 300px;
+        border-radius: 10px;
+        background-position: center center;
     }
 
     .quad1 {
@@ -478,4 +483,8 @@ textarea {
     cursor: pointer;
     border: none;
     border-radius: 16px;
+}
+
+.b{
+    border: 2px solid black;
 }
