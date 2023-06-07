@@ -82,34 +82,42 @@ a:hover {
     border-radius: 10px;
 }
 
-.bannerImage1{
+.bannerImage1 {
     background-image: url(../Images/Index/Banner01.jpg);
     background-size: cover;
-    background-position:top -250px center;
+    background-position: top -250px center;
     background-repeat: no-repeat;
     border-radius: 10px;
 }
 
-.bannerImage2{
+.bannerImage2 {
     background-image: url(../Images/Tecnologias/Banner2.jpg);
     background-size: cover;
-    background-position:top -190px  center;
+    background-position: top -190px center;
     background-repeat: no-repeat;
     border-radius: 10px;
 }
 
-.bannerImage3{
+.bannerImage3 {
     background-image: url(../Images/Recursos/Banner3.jpg);
     background-size: cover;
-    background-position:top -110px  center;
+    background-position: top -110px center;
     background-repeat: no-repeat;
     border-radius: 10px;
 }
 
-.bannerNoMundoPg{
+.bannerNoMundoPg {
     background-image: url(../Images/NoMundo/banner_no_mundo.jpg);
     background-size: cover;
-    background-position:center top -80px;
+    background-position: center top -80px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.bannerContato {
+    background-image: url(../Images/Contato/Banner4.jpg);
+    background-size: cover;
+    background-position: center top -80px;
     background-repeat: no-repeat;
     border-radius: 10px;
 }
@@ -171,7 +179,7 @@ h2 {
     text-align: justify;
 }
 
-.quad3Index{
+.quad3Index {
     width: 400px;
     height: 400px;
     float: left;
@@ -183,7 +191,7 @@ h2 {
     border-radius: 10px;
 }
 
-.quad1Tec{
+.quad1Tec {
     width: 400px;
     height: 400px;
     float: left;
@@ -195,7 +203,7 @@ h2 {
     border-radius: 10px;
 }
 
-.quad2Tec{
+.quad2Tec {
     width: 400px;
     height: 400px;
     float: left;
@@ -207,7 +215,7 @@ h2 {
     border-radius: 10px;
 }
 
-.quad3Tec{
+.quad3Tec {
     width: 400px;
     height: 400px;
     float: left;
@@ -219,7 +227,7 @@ h2 {
     border-radius: 10px;
 }
 
-.quadNoMundoImg1{
+.quadNoMundoImg1 {
     width: 400px;
     height: 400px;
     float: left;
@@ -231,7 +239,7 @@ h2 {
     border-radius: 10px;
 }
 
-.quadNoMundoImg2{
+.quadNoMundoImg2 {
     width: 400px;
     height: 400px;
     float: left;
@@ -310,28 +318,34 @@ a {
     }
 
     .horizontalRule {
-       width: 300px;
-       height: 0px;
+        width: 300px;
+        height: 0px;
     }
-    .footer{
+
+    .footer {
         display: flex;
         justify-content: center;
         align-content: center;
         flex-direction: column;
     }
-    .contatos{
+
+    .contatos {
         display: flex;
     }
-    .banner{
+
+    .banner {
         width: 100px;
     }
-    .quad1{
+
+    .quad1 {
         width: 100%
     }
-    .quad2{
+
+    .quad2 {
         width: 100%
     }
 }
+
 .footer {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -345,7 +359,7 @@ a {
 }
 
 .contatos {
-    display:block;
+    display: block;
     justify-content: center;
     align-content: center;
     padding: 40px;
@@ -354,19 +368,20 @@ a {
 }
 
 .contatosN {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-content: center;
     padding: 40px;
     gap: 20px;
 }
 
-.contatosN img{
-    border:3px solid white;
+.contatosN img {
+    border: 3px solid white;
     border-radius: 100px;
 }
-.contatosN img:hover{
-    border:3px solid #7CCE2A;
+
+.contatosN img:hover {
+    border: 3px solid #7CCE2A;
     border-radius: 100px;
 }
 
@@ -399,7 +414,8 @@ a {
     background: black;
     height: 300px;
 }
-.backgroundCard1{
+
+.backgroundCard1 {
     background-image: url(../Images/SobreNós/Photo05.jpeg);
     background-size: cover;
     background-position: center center;
@@ -407,7 +423,7 @@ a {
     border-radius: 10px;
 }
 
-.backgroundCard2{
+.backgroundCard2 {
     background-image: url(../Images/SobreNós/Photo03.jpeg);
     background-size: cover;
     background-position: center center;
@@ -415,7 +431,7 @@ a {
     border-radius: 10px;
 }
 
-.backgroundCard3{
+.backgroundCard3 {
     background-image: url(../Images/SobreNós/Photo01.jpeg);
     background-size: cover;
     background-position: center center;
@@ -423,7 +439,7 @@ a {
     border-radius: 10px;
 }
 
-.backgroundCard4{
+.backgroundCard4 {
     background-image: url(../Images/SobreNós/Photo02.jpeg);
     background-size: cover;
     background-position: center center;
@@ -431,10 +447,35 @@ a {
     border-radius: 10px;
 }
 
-.backgroundCard5{
+.backgroundCard5 {
     background-image: url(../Images/SobreNós/Photo04.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     border-radius: 10px;
+}
+
+input {
+    display: flex;
+    background-color: #7CCE2A;
+    color: #00213A;
+    padding: 16px 32px;
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+
+}
+
+input:hover {
+    color: #fff;
+}
+
+textarea {
+    display: flex;
+    background-color: #7CCE2A;
+    color: #00213A;
+    padding: 16px 32px;
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
 }
